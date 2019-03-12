@@ -17,7 +17,6 @@ body {
   color: #595959;
   background: #f1f1f1;
   }
-
 #page {
   position: relative;
   overflow-x: hidden;
@@ -92,7 +91,6 @@ h2{
   font-family: 'Sukhumvit Set', 'Thai Sans Neue', sans-serif;
   font-weight: 900;
   margin: 0 0 0 0;
-  /* text-align: center; */
   align-items: left;
   padding: 40px 0px 15px 0;
   font-style: normal;
@@ -103,7 +101,6 @@ h2 {
     font-family: 'Sukhumvit Set', 'Thai Sans Neue', sans-serif;
     font-weight: 900;
     margin: 0 0 0 0;
-    /* text-align: center; */
     align-items: left;
     padding: 0px 0px 1px 0;
     font-style: normal;
