@@ -204,6 +204,5 @@ JET_THEMES = [
     }
 ]
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'reviewfoods.herokuapp.com']
-DISABLE_COLLECTSTATIC: 0
