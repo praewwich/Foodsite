@@ -17,10 +17,8 @@ from django.core.exceptions import ImproperlyConfigured
 from django.conf import global_settings
 import os
 
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
@@ -29,12 +27,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'b&7kk(*jzxo&lgz^6gl=(v2g-@=3u&)k1edyp7-q-0uf*)6q49'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
-DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'reviewfoods.herokuapp.com']
-
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -51,7 +43,6 @@ INSTALLED_APPS = [
     'pagedown',
     'ckeditor',
     'ckeditor_uploader',
-    
 ]
 
 FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
@@ -213,3 +204,6 @@ JET_THEMES = [
     }
 ]
 
+DEBUG = False
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'reviewfoods.herokuapp.com']
+DISABLE_COLLECTSTATIC = 0
