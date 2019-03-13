@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'FoodWeb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'FoodBase',
-        'USER': 'postgres',
+        'NAME': 'dcjjvrugljavpc',
+        'USER': 'tybzdjetdomkwz',
         'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
+        'HOST': 'ec2-54-221-243-211.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }  
