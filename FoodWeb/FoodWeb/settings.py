@@ -11,10 +11,11 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 
-from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
-from django.core.exceptions import ImproperlyConfigured
-from django.conf import global_settings
+# from django.conf import settings
+# from django.utils.translation import ugettext_lazy as _
+# from django.core.exceptions import ImproperlyConfigured
+# from django.conf import global_settings
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
