@@ -13,7 +13,7 @@ from django.urls import re_path
 
 urlpatterns = [
     #--- Main Page ---#
-    url('Main/',views.Main,name='show'),
+    url('',views.Main,name='show'),
     url('MainCoursesPage',views.MainCoursesPage,name='MaincoursePage'),
     url('DrinkPage',views.DrinkPage,name='DrinkPage'),
     url('DessertPage',views.DessertPage,name='DessertPage'),
